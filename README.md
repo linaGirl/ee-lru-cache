@@ -6,7 +6,7 @@ LRU Memory Cache ( last recent used )
 
 
 
-	var cahce = new LRUCache( {
+	var cache = new LRUCache( {
 		  limit: 100000  	// max number of items
 		, ttl: 3600000 		// 1h ( remove items not accessed in the last hour )
 	} );
