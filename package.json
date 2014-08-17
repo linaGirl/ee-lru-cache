@@ -1,7 +1,7 @@
 {
       "name":           "ee-lru-cache"
     , "description":    "LRU Memory Cache ( last recent used )"
-    , "version":        "0.1.5"
+    , "version":        "0.1.6"
     , "homepage":       "https://github.com/eventEmitter/ee-lru-cache"
     , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "repository": {
@@ -17,6 +17,7 @@
           "ee-class":           "0.4.x"
         , "ee-event-emitter":   "0.1.x"
         , "ee-log":             "0.2.x"
+        , "binary-search-tree": "0.2.4"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
