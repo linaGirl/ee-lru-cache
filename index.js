@@ -1,4 +1,4 @@
 
 
 
-	module.exports = require( "./lib/LRUCache" );
+	module.exports = require( "./src/LRUCache" );

@@ -1,24 +1,28 @@
 {
-      "name":           "ee-lru-cache"
-    , "description":    "LRU Memory Cache ( last recent used )"
-    , "version":        "0.1.9"
-    , "homepage":       "https://github.com/eventEmitter/ee-lru-cache"
-    , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+      "name"                    :"ee-lru-cache"
+    , "description"             :"LRU Cache (least recent used)"
+    , "version"                 :"1.0.0"
+    , "homepage"                :"https://github.com/eventEmitter/ee-lru-cache"
+    , "author"                  :"Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "repository": {
-        "url":          "https://github.com/eventEmitter/ee-lru-cache"
+        "url"                   :"https://github.com/eventEmitter/ee-lru-cache"
     }
     , "engines": {
-        "node":         "*"
+        "node"                  :"v7"
     }
     , "bugs": {
-        "url":          "https://github.com/eventEmitter/ee-lru-cache/issues"
+        "url"                   :"https://github.com/eventEmitter/ee-lru-cache/issues"
     }
     , "dependencies": {
-          "ee-class":           "0.4.x"
-        , "ee-event-emitter":   "0.1.x"
-        , "ee-log":             "0.2.x"
-        , "binary-search-tree": "0.2.4"
+          "ee-event-emitter"    :"1.x"
+        , "ee-log"              :"1.x"
+        , "linkd"               :"3.x"
     }
-    , "devDependencies": {}
+    , "devDependencies": {
+        "section-tests"         :"1.x"
+    }
     , "optionalDependencies": {}
+    , "scripts": {
+        "test"                  : "section  ./test/*.js"
+    }
 }
