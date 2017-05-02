@@ -1,6 +1,8 @@
 ee-lru
 ======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-lru-cache.svg)](https://greenkeeper.io/)
+
 LRU Memory Cache ( last recent used )
 
 
