@@ -1,28 +1,24 @@
 {
-      "name"                    :"ee-lru-cache"
-    , "description"             :"LRU Cache (least recent used)"
-    , "version"                 :"1.0.0"
-    , "homepage"                :"https://github.com/eventEmitter/ee-lru-cache"
-    , "author"                  :"Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
-    , "repository": {
-        "url"                   :"https://github.com/eventEmitter/ee-lru-cache"
-    }
-    , "engines": {
-        "node"                  :"v7"
-    }
-    , "bugs": {
-        "url"                   :"https://github.com/eventEmitter/ee-lru-cache/issues"
-    }
-    , "dependencies": {
-          "ee-event-emitter"    :"1.x"
-        , "ee-log"              :"1.x"
-        , "linkd"               :"3.x"
-    }
-    , "devDependencies": {
-        "section-tests"         :"1.x"
-    }
-    , "optionalDependencies": {}
-    , "scripts": {
-        "test"                  : "section  ./test/*.js"
-    }
+      "name": "ee-lru-cache",
+      "description": "LRU Cache (least recent used)",
+      "version": "1.0.0",
+      "homepage": "https://github.com/linaGirl/ee-lru-cache",
+      "author": "Lina van der Weg <lina@vanderweg.ch> (http://vanderweg.ch/)",
+      "repository": {
+            "url": "https://github.com/linaGirl/ee-lru-cache"
+      },
+      "bugs": {
+            "url": "https://github.com/linaGirl/ee-lru-cache/issues"
+      },
+      "dependencies": {
+            "ee-event-emitter": "^1.0.1",
+            "ee-log": "^3.0.9",
+            "linkd": "^3.0.0"
+      },
+      "devDependencies": {
+            "section-tests": "1.x"
+      },
+      "scripts": {
+            "test": "section  ./test/*.js"
+      }
 }
